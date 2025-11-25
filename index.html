@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLP 2026</title>
+    <style>
+* { margin: 0; padding: 0; box-sizing: border-box; } html, body { overflow-x: hidden; } body { background-color: #ECE8E5; } .container { max-width: 440px; width: 100%; margin: 0 auto; padding: 0 10px; padding-top: 0; display: flex; flex-direction: column; align-items: center; font-family: sans-serif; } .header { width: 100%; background-color: #fff; box-shadow: 0px 4px 6.6px 0px #00000026; border-radius: 4px 4px 20px 20px; padding: 11.5px 21px; display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 25px; min-width: 313px; max-width: 400px; } .header__box { display: flex; align-items: center; gap: 8px; } .header__text { font-family: Poppins, sans-serif; color: #000; font-weight: 500; font-size: 16px; line-height: 100%; text-wrap: nowrap; } .header__time { font-family: Poppins, sans-serif; font-weight: 700; font-size: 18px; line-height: 100%; text-align: center; } .title { font-family: "Big Shoulders Display", sans-serif; font-weight: 800; font-size: 33px; line-height: 120%; text-align: center; text-transform: uppercase; color: #000000; margin-bottom: 5px; width: 100%; } .title span { color: #53453F; } .titles { color: #E60000; font-size: 55px; font-family: "Bebas Neue", sans-serif; font-weight: 400; line-height: 105%; text-align: center; text-transform: uppercase; } .text { font-family: Poppins, sans-serif; font-weight: 400; font-size: 16px; line-height: 120%; text-align: center; margin-bottom: 9px; } .text span { font-weight: 700; } .center { position: relative; width: 100%; display: flex; align-items: center; justify-content: center; } .center__bg { position: absolute; left: 50%; bottom: -51px; transform: translate(-55.4%); z-index: -1; } .expert__img { object-fit: contain; max-width: 304px; width: 100%; height: auto; margin-left: -30px; margin-bottom: -1px; } .event__btn { cursor: pointer; max-width: 345px; width: 100%; display: flex; align-items: center; justify-content: center; border: none; background-color: transparent; position: relative; background-color: #53453F; border-radius: 30px; padding: 18px; z-index: 20; font-family: "Big Shoulders Display", sans-serif; color: white; font-weight: 400; font-size: 30px; line-height: 100%; text-align: center; text-transform: uppercase; } .event__btn__img { width: 100%; height: auto; } .event__list__title { font-family: Montserrat, sans-serif; font-weight: 700; font-size: 20px; line-height: 100%; text-align: center; margin-top: 20px; margin-bottom: 10px; } .event__list { max-width: 351px; display: grid; grid-template: 1fr; gap: 15px; list-style: none; margin-bottom: 21px; } .event__list__item { display: flex; align-items: center; gap: 8px; overflow: hidden; } .event__list__item__number { display: flex; align-items: center; justify-content: center; flex-shrink: 0; } .event__list__item__text { font-weight: 400; font-family: Poppins, sans-serif; font-size: clamp(12px, 4vw, 16px); line-height: 120%; color: #2C0815; } .event__list__item__text span { font-weight: 600; } .blur-up { filter: blur(10px); transition: filter 0.4s ease-out; } .gift-wrapper { padding: 4px; border-radius: 20px; background: linear-gradient(181.35deg, #ECE8E5 27.53%, #53453F 98.85%); max-width: 345px; width: 100%; margin-top: 22px; } .gift { display: flex; align-items: center; gap: 12px; width: 100%; background-color: white; border-radius: 16px; padding: 10px 12px 12px 18px; } .gift__img { object-fit: contain; width: clamp(52px, 16.3vw, 75px); height: auto; } .gift__title { font-family: "Big Shoulders Display", sans-serif; font-weight: 900; font-size: clamp(14px, 5.6vw, 36px); line-height: 100%; text-transform: uppercase; margin-bottom: 2px; } .gift__description { font-family: Poppins, sans-serif; font-weight: 400; font-size: 13px; line-height: 150%; } @media (max-width:450px) { .title { font-size: 27px; } .titles { font-size: 45px; } .text { font-size: 14px; } } @media (max-width:355px) { .expert__img { max-width: 250px; } .event__btn { font-size: 27px; } .title { font-size: 24px; } .text { font-size: 13px; } .header { padding: 20px 22px; } }
+    </style>
+    <link rel="stylesheet" href="./css/modal.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="./css/modal.css" />
+    </noscript>
+    <meta name="facebook-domain-verification" content="zlaa3zpbyq0xqc173sctkuk3cxl7we" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <div class="header__box">
+                    <img src="./images/calendar.png" alt="kalendar belgisi" style="margin-top: -3px;"
+                        class="header__text__img" width="18" height="18" loading="lazy" decoding="async">
+                    <p class="header__text">
+                        4-5-Dekabr
+                    </p>
+                </div>
+                <p class="header__time">20:00</p>
+            </div>
+            <h1 class="title">
+                Qanday qilib <br> <span>hayajonlanmasdan chiroyli va ta’sirli nutq</span> so’zlash mumkin?
+            </h1>
+
+            <p class="text">20 yillik tajribaga ega Notiqlik bo‘yicha <br> ustoz, 1000 dan oshiq o‘quvchilar</p>
+
+            <img src="./images/speaker.avif" alt="Invertor rasmi" class="expert__img minifyImg" decoding="async"
+                loading="lazy" width="304" height="296">
+
+            <button class="event__btn registerBtn">
+                Vebinarga qatnashish </button>
+
+            <div class="gift-wrapper">
+                <div class="gift">
+                    <img class="gift__img" loading="lazy" src="./images/gift.avif" alt="gift icon">
+                    <div class="">
+                        <h3 class="gift__title">darslik sovg’a!</h3>
+                        <p class="gift__description">Chiroyli ovozga ega bo’lish uchun <br> 3 ta amaliy mashq.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="event__list__title">Bepul darsda siz:</h2>
+            <ul class="event__list">
+                <li class="event__list__item">
+                    <div class="event__list__item__number">
+                        <img src="./images/verify.avif" alt="event language" width="35" height="35" decoding="async"
+                            loading="lazy">
+                    </div>
+                    <p class="event__list__item__text">
+                        Qanday qilib nutq orqali <br> <span>insonlarga ta‘sir o‘tkazish</span>ni
+                    </p>
+                </li>
+                <li class="event__list__item">
+                    <div class="event__list__item__number">
+                        <img src="./images/verify.avif" alt="event language" width="35" height="35" decoding="async"
+                            loading="lazy">
+                    </div>
+                    <p class="event__list__item__text">
+                        O‘ziga bo‘lgan <span>ishonchni <br> oshirishni</span>
+                    </p>
+                </li>
+                <li class="event__list__item">
+                    <div class="event__list__item__number">
+                        <img src="./images/verify.avif" alt="event language" width="35" height="35" decoding="async"
+                            loading="lazy">
+                    </div>
+                    <p class="event__list__item__text">
+                        Va networking orqali <span>daromadingizni <br> 2X ga oshirish</span>ni o‘rganasiz
+                    </p>
+                </li>
+            </ul>
+
+            <button class="event__btn registerBtn" style="margin-bottom: 30px;">
+                Vebinarga qatnashish </button>
+        </div>
+
+    </div>
+
+
+
+    <!-- Modal -->
+    <div id="registrationModal" class="homeModal" style="display: none">
+        <div class="homeModalOverlay"></div>
+        <div class="homeFormContainer">
+            <button class="closeButton" id="closeModalBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
+                    <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" />
+                </svg>
+            </button>
+            <div class="homeFormTop">
+                <h1 class="homeFormTopTitle">
+                    Bepul darsga <br />
+                    RO'YXATDAN O'TISH
+                </h1>
+            </div>
+            <form id="registrationForm" name="contact-form">
+                <div class="HomeFormRow">
+                    <label class="HomeFormRowLabel" for="phone">Telefon raqamingiz:</label>
+                    <div class="phone-input-container">
+                        <div class="country-selector">
+                            <div class="selected-country" id="selectedCountry">
+                                <span id="selectedCountryCode">+998</span>
+                                <svg id="dropdownIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </div>
+                            <div class="country-dropdown" id="countryDropdown" style="display: none"></div>
+                        </div>
+                        <input class="HomeFormRowInput" type="tel" id="phone" name="phone" placeholder="88 888 88 88"
+                            autocomplete="tel" />
+                    </div>
+                    <p class="homeFormErrorText" id="phoneError" style="display: none">
+                        ❌ Telefon raqam mos emas!
+                    </p>
+                </div>
+                <button type="submit" class="HomeFormBtn" id="submitBtn">
+                    ro’yxatdan o’tish </button>
+            </form>
+        </div>
+    </div>
+
+    <script defer src="./js/app.js"></script>
+    <!-- Meta Pixel Code -->
+    <script defer>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '878067501156476');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=878067501156476&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+</body>
+
+</html>
